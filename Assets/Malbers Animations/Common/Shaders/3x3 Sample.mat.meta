@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 473541da0def97544b5c0e22b3002fa2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/3x3 Sample.mat
+  uploadId: 584633

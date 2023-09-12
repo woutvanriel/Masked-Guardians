@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bdf9fd42c6665a045bf5d894cf016f5a
+labels:
+- AllCreature
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/HDRP_MalbersShaders 2020.unitypackage
+  uploadId: 584633

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5fc889f1605228549ae40bd1b4d5b6cb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/SimpleOutline.shader
+  uploadId: 584633
