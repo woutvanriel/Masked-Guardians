@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -29,12 +30,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Update() {
-        xDirection = getInput().x;
-        yDirection = getInput().y;
-        if (Input.GetButtonDown("Jump")) jumpBufferThreshold = jumpBuffer;
-        else jumpBufferThreshold -= Time.deltaTime;
-        if (Input.GetButtonDown("Dash")) dashBufferCounter = dashBufferThreshold;
-        else dashBufferCounter -= Time.deltaTime;
         animation();
     }
 
@@ -357,6 +352,24 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnMove(InputAction.CallbackContext context)
+    {
+    Vector2 inputVector = context.ReadValue<Vector2>();
+    xDirection = inputVector.x;
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+    if (context.started)
+    {
+        jumpBufferThreshold = jumpBuffer;
+    }
+    else if (context.canceled)
+    {
+        jumpBufferThreshold -= Time.deltaTime;
+    }
+    }
+
 
 
     [Header("Hair")] 
@@ -409,7 +422,10 @@ public class PlayerMovement : MonoBehaviour
         if (!facingRight) {
             currentOffset.x *= -1;
         }
+        
     }
+
+
 
     #endregion
 }
