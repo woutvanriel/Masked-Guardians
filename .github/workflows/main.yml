@@ -9,6 +9,13 @@ jobs:
     name: Activate license
     runs-on: ubuntu-latest
     steps:
+    - name: List Files Action
+      uses: mirko-felice/list-files-action@v3.0.5
+      with:
+        repo: ${{ github.repository }}
+        ref: ${{ github.ref }}
+        path: "."
+        ext: ""
     - uses: game-ci/unity-test-runner@v3
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
