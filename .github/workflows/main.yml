@@ -1,6 +1,9 @@
 name: test, build and push the application to itch.io
+run-name: ${{ github.actor }} has triggered the workflow.
 on:
-  workflow_dispatch: {}
+  push:
+    branches:
+      - 'main'
 jobs:
   activate:
     name: Activate license
