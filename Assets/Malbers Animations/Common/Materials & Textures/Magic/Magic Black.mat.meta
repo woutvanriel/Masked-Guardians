@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4fe561ab9d488d8f8b52dc9c35d61f8e3557bd55c5fd5de3adfc4ea9c7e74f7f
-size 397
+fileFormatVersion: 2
+guid: 5e2948538d3401c4e9b045835fad426a
+timeCreated: 1484276786
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Magic/Magic Black.mat
+  uploadId: 584633

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:318ae6933574d74cbb894ad2e926494cba5eca32db57dda6cb7283ed84205a02
-size 433
+fileFormatVersion: 2
+guid: fcc8068c8b002c442a7b5f8ffe02d0a1
+timeCreated: 1478922904
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Materials/Fox
+    Skin Mane Wolf.mat
+  uploadId: 584633

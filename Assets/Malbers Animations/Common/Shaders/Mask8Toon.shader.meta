@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e6f7ed5dd5e8ef987df92df3aad05a5f6ee275618123a0c8b1b0f22d42e838b
-size 450
+fileFormatVersion: 2
+guid: 605d1e14bd910db49aa50378eb8e118c
+labels:
+- AllCreature
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/Mask8Toon.shader
+  uploadId: 584633

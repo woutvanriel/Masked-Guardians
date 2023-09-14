@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2bf7bcf3371d61c7ab249be62443ceffd3f5e88c618d933e52f6ac42c3713e0b
-size 422
+fileFormatVersion: 2
+guid: 5fc889f1605228549ae40bd1b4d5b6cb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/SimpleOutline.shader
+  uploadId: 584633

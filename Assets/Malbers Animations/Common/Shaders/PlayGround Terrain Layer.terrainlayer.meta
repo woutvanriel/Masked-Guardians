@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16955e736a291ae2b214f3eaeebfc0178199d76ed3abcfc7f606d9592d988b96
-size 441
+fileFormatVersion: 2
+guid: f352bb451383ef546bfa3bb8c233788e
+labels:
+- AllCreature
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/PlayGround Terrain Layer.terrainlayer
+  uploadId: 584633

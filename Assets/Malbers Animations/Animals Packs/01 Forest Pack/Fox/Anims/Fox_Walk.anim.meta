@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c409fb3a0488b63f0022405739230410c8e050b16d45cf8648def6f84c0d339
-size 422
+fileFormatVersion: 2
+guid: 02260815cccedbd419db4f97e9144654
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Anims/Fox_Walk.anim
+  uploadId: 584633

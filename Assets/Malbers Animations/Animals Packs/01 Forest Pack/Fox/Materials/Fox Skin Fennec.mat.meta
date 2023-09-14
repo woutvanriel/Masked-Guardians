@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a547dfd85336bc85519e9a3a9dcde9624d8cf3327ea9e0fa63ef31bc3e677d1
-size 430
+fileFormatVersion: 2
+guid: 1e28f2ea86686bf46bd1a28256f0888b
+timeCreated: 1478922904
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Materials/Fox
+    Skin Fennec.mat
+  uploadId: 584633

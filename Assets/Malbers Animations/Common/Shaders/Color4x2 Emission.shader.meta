@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a2bf2a45616372061494dae67414e063c1f7889c8d127746acef072a01a8759c
-size 426
+fileFormatVersion: 2
+guid: 9d644f4490be222438977df25a7ad197
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/Color4x2 Emission.shader
+  uploadId: 584633

@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5bb5f1b92a65fc08cf9e601703035c63aa08a22ea91e2e5cce749a409bd75a7c
-size 314
+fileFormatVersion: 2
+guid: cf1acff8cf98a440dba907e79fd30ebc
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Fonts/OpenSans/License!.txt
+  uploadId: 584633

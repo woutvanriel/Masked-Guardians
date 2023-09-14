@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e94fe9749cf803541434c8dca5f44697933a320464fd0265f1fc20c82aae88ec
-size 530
+fileFormatVersion: 2
+guid: 4ae65d730db1a154c9c3f1d2bda81cd1
+labels:
+- AllCreature
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WaterNormal: {fileID: 2800000, guid: ac4ce49f59542d342813ea776cbce7c3, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/MWater2.shader
+  uploadId: 584633

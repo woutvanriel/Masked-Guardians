@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:146c796a552b53ba38aae716e47e895590be5613c2c6a01ef917d395e459ec35
-size 435
+fileFormatVersion: 2
+guid: 4a9270e81fdd4874a91f7acb2ea9e373
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Models/Fox
+    Default.prefab
+  uploadId: 584633

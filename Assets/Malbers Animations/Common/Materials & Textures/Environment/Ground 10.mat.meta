@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7f3aec56fd2f3b9f735cbbdf24bdae21dae4252800511ac037a547ea1d50b325
-size 405
+fileFormatVersion: 2
+guid: 4d4f34b1c4d3853498ee3a42937ce714
+timeCreated: 1466023631
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Environment/Ground
+    10.mat
+  uploadId: 584633

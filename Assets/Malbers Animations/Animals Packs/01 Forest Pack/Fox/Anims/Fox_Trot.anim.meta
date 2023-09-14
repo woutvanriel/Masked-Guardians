@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b7ecb27146a2daf1b36f7a728ec21d3c1756c94e6ff46111915ac0eed4140bc
-size 422
+fileFormatVersion: 2
+guid: 881e67d2ed03283479055647918f03f2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Anims/Fox_Trot.anim
+  uploadId: 584633

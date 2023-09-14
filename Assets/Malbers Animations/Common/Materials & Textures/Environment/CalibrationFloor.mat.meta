@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab1714b196e68934a281668d96a225bfb165a0dfe7253c7759def61763ade9ae
-size 408
+fileFormatVersion: 2
+guid: 3041589aa990b42468c74902ca30f114
+timeCreated: 1481127070
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Environment/CalibrationFloor.mat
+  uploadId: 584633

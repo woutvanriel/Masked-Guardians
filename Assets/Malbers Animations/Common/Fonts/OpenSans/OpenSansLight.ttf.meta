@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06ddbabda6f0f36e140db7b21e7fd658d0badaa9495a02dc29b022b5fd4524c3
-size 527
+fileFormatVersion: 2
+guid: 04a842e316b6f44bf8da702de26a8ed6
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansLight.ttf
+  uploadId: 584633

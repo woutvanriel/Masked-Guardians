@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ffeaa3da4c7735e8042c7401ff4f7c45e46b2ac36e99845b50869855453cbd96
-size 398
+fileFormatVersion: 2
+guid: e06654e42f6991548a76f7ed883c3515
+timeCreated: 1484276786
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Magic/Magic Yellow.mat
+  uploadId: 584633

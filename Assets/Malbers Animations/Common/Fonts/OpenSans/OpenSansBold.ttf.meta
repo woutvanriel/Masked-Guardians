@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:edac71ea6d2d6e3884afd0c536c0cf901e4d4543129004e73ae6419e0ce782e3
-size 526
+fileFormatVersion: 2
+guid: 87c316b602156405d92e616621658222
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansBold.ttf
+  uploadId: 584633

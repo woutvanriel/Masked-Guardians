@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dfa911d7d71a3177e135c26fcca449b79c8d1bf56ec00605cf9d523d72a8cb1c
-size 435
+fileFormatVersion: 2
+guid: d94026bdff771e24d8adcfa505894699
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Models/Fox
+    Corgi 1.prefab
+  uploadId: 584633

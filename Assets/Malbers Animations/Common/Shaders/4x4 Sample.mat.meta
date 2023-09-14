@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ee48d17867a7ea6ee96aff0a378dbe825fc992198de4603116b5b9edba94863
-size 399
+fileFormatVersion: 2
+guid: 66c56facbc8e59443a71933c7dbc2151
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/4x4 Sample.mat
+  uploadId: 584633

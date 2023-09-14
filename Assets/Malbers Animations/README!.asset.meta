@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3347aee48cd83236cc9c42861c847322b39b1c6cf231ff3902bab8d38591dbc
-size 406
+fileFormatVersion: 2
+guid: 8357ab50d0248b347a61fe6d6b730ff1
+timeCreated: 1532053210
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/README!.asset
+  uploadId: 584633

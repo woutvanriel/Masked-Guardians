@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ef11a44f7c2f1138b8b7ab4d1ee732d9f0bd1145e8cdadc56b3e121e4a4538a
-size 432
+fileFormatVersion: 2
+guid: af3a7daa4e44b814d8193ab256a1f9d7
+timeCreated: 1478922904
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Materials/Fox
+    Skin Orange 1.mat
+  uploadId: 584633

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e859c9b96dae361eaf775833473c611a731f64f414a5463ce2ddb29bca9c37f7
-size 433
+fileFormatVersion: 2
+guid: 8701839b7c9d5fe4387a46bd8530957f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Models/Mane
+    Wolf.prefab
+  uploadId: 584633

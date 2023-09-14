@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ee78cfa0b86a381233f5dc13ff53ed88460b8990c8509750f23f53c159ad609
-size 432
+fileFormatVersion: 2
+guid: b8e2b7629c3aac64bbc389bef33ee65e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Models/Fox
+    Snow.prefab
+  uploadId: 584633

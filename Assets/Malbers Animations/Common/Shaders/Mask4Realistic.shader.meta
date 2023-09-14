@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9bb7d6ae432d836189d64ca3f390fdf1e59d2e27255fc8d0887931cbdd2d33c
-size 455
+fileFormatVersion: 2
+guid: c325c7408c33dc54eb1879737ed7891f
+labels:
+- AllCreature
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80356
+  packageName: 'Poly Art: Fox'
+  packageVersion: 3.8
+  assetPath: Assets/Malbers Animations/Common/Shaders/Mask4Realistic.shader
+  uploadId: 584633
