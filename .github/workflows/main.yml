@@ -3,6 +3,7 @@ run-name: testing, building and pushing for ${{ github.actor }}
 on:
   push:
     branches:
+  workflow_dispatch: {}
 jobs:
   activate:
     name: Activate license
