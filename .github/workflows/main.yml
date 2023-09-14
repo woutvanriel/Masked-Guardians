@@ -39,5 +39,5 @@ jobs:
       with:
         name: Coverage results
         path: ${{ steps.myTestStep.outputs.coveragePath }}
-  build:
+
 
