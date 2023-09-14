@@ -4,12 +4,12 @@ on:
 jobs:
   activation:
     name: Request manual activation file
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       # Request manual activation file
       - name: Request manual activation file
         id: getManualLicenseFile
-        uses: game-ci/unity-request-activation-file@v3
+        uses: game-ci/unity-request-activation-file@v2
         with:
           unityVersion: 2023.1.12f1
       # Upload artifact (Unity_v20XX.X.XXXX.alf)
