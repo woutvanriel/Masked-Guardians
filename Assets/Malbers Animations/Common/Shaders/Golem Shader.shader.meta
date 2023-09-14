@@ -1,20 +1,3 @@
-fileFormatVersion: 2
-guid: 64ce74c36ec896d42a70b7451202a4da
-labels:
-- AllCreature
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures:
-  - _EmissionMask: {fileID: 2800000, guid: 0e90178a9c0b464408857a81b53fc7ac, type: 3}
-  nonModifiableTextures: []
-  preprocessorOverride: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Golem Shader.shader
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bc5edf93199c6e0b67a5dc4260be3dbf722c5a5b2e846c07186eb0618f73bb9
+size 536

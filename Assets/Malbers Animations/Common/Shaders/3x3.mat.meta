@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: 15ac8a5d6583cbf40bca973d31cb7055
-labels:
-- AllCreature
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/3x3.mat
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b4cb6e06b0ba56353c36b2f3eaec5e701c9cda891950b9adc50b5ee32b50e9b
+size 393

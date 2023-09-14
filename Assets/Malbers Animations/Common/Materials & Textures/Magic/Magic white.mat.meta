@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9e69f0b8560e90741aff6f38811f51d1
-timeCreated: 1484276786
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Magic/Magic white.mat
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:61d2314b95e10ca5f7f802ef50500f03c53625ced2597ecb0ec1b588c1a5de7d
+size 397

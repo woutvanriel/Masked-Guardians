@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 3812bc67b9bf1be4eaae12903b7dab3d
-timeCreated: 1478578292
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Fox Base
-    Demo.unity
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e14bb0b0d0cdf944581af7212f1d5a6d4966ed72594e822eefd124d0c396ef2
+size 415

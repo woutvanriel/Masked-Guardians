@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 794569cb02428264db2731b889c4c8c7
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 100100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Models/Fox
-    Fennec.prefab
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:247c0c0013cd18e6c2c9088b93b010fe813860c3299b2c4c6697dca6499c58fd
+size 434

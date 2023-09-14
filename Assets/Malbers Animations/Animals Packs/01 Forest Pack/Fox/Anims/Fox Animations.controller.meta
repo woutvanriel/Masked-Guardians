@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 7c05beb634bfdce4092d676300bd461d
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Fox/Anims/Fox
-    Animations.controller
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8dde99bef0ac95b7b742f6a1f99889ae177f771f4e8da0855dcabf6ef4f87f9
+size 439

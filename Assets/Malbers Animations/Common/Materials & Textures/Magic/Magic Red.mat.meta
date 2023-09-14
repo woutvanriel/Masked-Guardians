@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5578bdf27ee7bf743bd72e8e4172913c
-timeCreated: 1484276786
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Materials & Textures/Magic/Magic Red.mat
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:e596fd898e275b53d2f473093813a7186abe14e636fdacc255ad7f834deec9d7
+size 395

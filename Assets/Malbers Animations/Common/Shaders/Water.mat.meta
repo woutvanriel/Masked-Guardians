@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: 358c718a8aab6284ab1dee6af28bf1e7
-labels:
-- AllCreature
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Water.mat
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:383a165ecbb8a5208333c9f44f1c589002021f3c5edc052217ffd53faababe07
+size 401

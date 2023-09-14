@@ -1,20 +1,3 @@
-fileFormatVersion: 2
-guid: 19bc351f0d267ce4c98eaaff4295e3fa
-labels:
-- AllCreature
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Scripts/Editor/Menu/MalbersMenu.cs
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:81ae4d6400428dd63d6dd44a603de75756394ce2c7c479e959cbd1c2569131af
+size 473

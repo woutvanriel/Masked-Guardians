@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: de3f4753ad99ddd4791206d831d03b71
-labels:
-- AllCreature
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Ground_20.mat
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:12a165be30fb2a28c7d6f6d48edc9ce55903f3ff78572464088201a815bb22df
+size 399

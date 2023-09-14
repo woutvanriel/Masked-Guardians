@@ -1,20 +1,3 @@
-fileFormatVersion: 2
-guid: 365d78d112d33ff4bb96ef713a3af84b
-labels:
-- AllCreature
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures:
-  - _Gradient: {fileID: 2800000, guid: 0f424a347039ef447a763d3d4b4782b0, type: 3}
-  nonModifiableTextures: []
-  preprocessorOverride: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Color4x3.shader
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:e10d38ff694b07a778859ba5d090f637121404317c1f620d7d538b0e8cd0e7e2
+size 528

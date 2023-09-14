@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: 632fc863e2898d74c93397f01c132e39
-labels:
-- AllCreature
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures:
-  - _Albedo: {instanceID: 0}
-  - _Mask: {instanceID: 0}
-  - _texcoord: {instanceID: 0}
-  nonModifiableTextures: []
-  preprocessorOverride: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 80356
-  packageName: 'Poly Art: Fox'
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Mask4Toon.shader
-  uploadId: 584633
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5bec9e79d730804565bb2cece88abf845ebd9db3e0229d2b3ebebf1a419820d
+size 534
