@@ -1,5 +1,5 @@
 name: test, build and push the application to itch.io
-run-name: ${{ github.actor }} has triggered the workflow.
+run-name: testing, building and pushing for ${{ github.actor }}
 on:
   push:
     branches:
@@ -15,7 +15,7 @@ jobs:
         repo: ${{ github.repository }}
         ref: ${{ github.ref }}
         path: "."
-        ext: "*"
+        ext: ""
     - uses: game-ci/unity-test-runner@v3
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
