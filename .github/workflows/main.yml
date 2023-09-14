@@ -10,6 +10,6 @@ jobs:
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
       with:
-        projectPath: ${{ variables.PROJECT_PATH }}
+        projectPath: ${{ PROJECT_PATH }}
         githubToken: ${{ secrets.GITHUB_TOKEN }}
 
