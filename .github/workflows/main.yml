@@ -7,6 +7,7 @@ on:
 jobs:
   test:
     name: Run tests
+    id: tests
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -38,6 +39,6 @@ jobs:
       if: always()
       with:
         name: Coverage results
-        path: ${{ steps.myTestStep.outputs.coveragePath }}
+        path: ${{ steps.tests.outputs.coveragePath }}
 
 
