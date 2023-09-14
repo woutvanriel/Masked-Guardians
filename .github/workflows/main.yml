@@ -3,7 +3,7 @@ run-name: testing, building and pushing for ${{ github.actor }}
 on:
   push:
     branches:
-      - 'main'
+      # - 'main'
 jobs:
   activate:
     name: Activate license
