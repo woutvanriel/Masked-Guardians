@@ -1,0 +1,46 @@
+name: test, build and push the application to itch.io
+run-name: testing, building and pushing for ${{ github.actor }}
+on:
+  push:
+    branches:
+  workflow_dispatch: {}
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      name: Checkout main
+      with:
+        lfs: true
+    - uses: actions/cache@v2
+      name: Cache main
+      with:
+        path: ${{ matrix.projectPath }}/Library
+        key: Library-${{ matrix.projectPath }}
+        restore-keys: |
+          Library-
+    - name: Run tests
+      id: tests
+      uses: game-ci/unity-test-runner@v3
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL  }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD  }}
+      with:
+        projectPath: ${{ env.PROJECT_PATH }}
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
+    - name: Upload test artifacts
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: Test results
+        path: ${{ steps.tests.outputs.artifactsPath }}
+    - name: Upload coverage artifacts
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: Coverage results
+        path: ${{ steps.tests.outputs.coveragePath }}
+
+
