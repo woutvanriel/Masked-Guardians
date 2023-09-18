@@ -1397,3 +1397,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148877
+  packageName: Animal Controller
+  packageVersion: 1.4.2c
+  assetPath: Assets/Malbers Animations/Common/Human Anims/Fall/H_Sprint_Land_Soft.fbx
+  uploadId: 613695

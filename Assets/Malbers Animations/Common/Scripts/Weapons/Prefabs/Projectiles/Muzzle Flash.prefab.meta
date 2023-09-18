@@ -5,3 +5,11 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148877
+  packageName: Animal Controller
+  packageVersion: 1.4.2c
+  assetPath: Assets/Malbers Animations/Common/Scripts/Weapons/Prefabs/Projectiles/Muzzle
+    Flash.prefab
+  uploadId: 613695

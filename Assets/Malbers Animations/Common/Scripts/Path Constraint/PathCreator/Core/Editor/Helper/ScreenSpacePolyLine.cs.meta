@@ -9,3 +9,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148877
+  packageName: Animal Controller
+  packageVersion: 1.4.2c
+  assetPath: Assets/Malbers Animations/Common/Scripts/Path Constraint/PathCreator/Core/Editor/Helper/ScreenSpacePolyLine.cs
+  uploadId: 613695

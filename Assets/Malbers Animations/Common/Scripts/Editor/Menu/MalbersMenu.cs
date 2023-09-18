@@ -9,27 +9,25 @@ namespace MalbersAnimations
 {
     public class MalbersMenu : EditorWindow
     {
-        const string URPL_Shader_Path2020 = "Assets/Malbers Animations/Common/Shaders/URP_Malbers Shaders 2020.unitypackage";
         const string URPL_Shader_Path2021 = "Assets/Malbers Animations/Common/Shaders/URP_Malbers Shaders 2021.unitypackage";
+        const string URPL_Shader_Path2023 = "Assets/Malbers Animations/Common/Shaders/URP_Malbers Shaders 2023.unitypackage";
         const string HRPL20_Shader_Path = "Assets/Malbers Animations/Common/Shaders/HDRP_MalbersShaders 2020.unitypackage";
         const string HRPL22_Shader_Path = "Assets/Malbers Animations/Common/Shaders/HDRP_MalbersShaders 2022.unitypackage";
 
 
-        [MenuItem("Tools/Malbers Animations/Malbers URP Shaders [Unity 2020]", false, 1)]
-        public static void UpgradeMaterialsURPL2020() => AssetDatabase.ImportPackage(URPL_Shader_Path2020, true);
-
-
-
-        [MenuItem("Tools/Malbers Animations/Malbers URP Shaders [Unity 2021+]", false, 1)]
+        [MenuItem("Tools/Malbers Animations/Malbers URP 12 Shaders [Unity 2021]", false, 1)]
         public static void UpgradeMaterialsURPL2021() => AssetDatabase.ImportPackage(URPL_Shader_Path2021, true);
+  
+        
+        [MenuItem("Tools/Malbers Animations/Malbers URP 14 Shaders [Unity 2023]", false, 1)]
+        public static void UpgradeMaterialsURPL2023() => AssetDatabase.ImportPackage(URPL_Shader_Path2023, true);
 
 
-
-        [MenuItem("Tools/Malbers Animations/Malbers HDRP Shaders [Unity 2020+]", false, 1)]
+        [MenuItem("Tools/Malbers Animations/Malbers HDRP Shaders [Unity 2020+]", false, 20)]
         public static void UpgradeMaterialsHRPL2020() => AssetDatabase.ImportPackage(HRPL20_Shader_Path, true);
 
 
-        [MenuItem("Tools/Malbers Animations/Malbers HDRP Shaders [Unity 2022+]", false, 1)]
+        [MenuItem("Tools/Malbers Animations/Malbers HDRP Shaders [Unity 2022+]", false, 20)]
         public static void UpgradeMaterialsHRPL2022() => AssetDatabase.ImportPackage(HRPL22_Shader_Path, true);
 
 
@@ -49,7 +47,7 @@ namespace MalbersAnimations
             TestPlane.isStatic = true;
 
             var BrainCam = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Common/Cinemachine/CM Brain.prefab", typeof(GameObject)) as GameObject;
-            var CMFreeLook = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Common/Cinemachine/CM Third Person Main.prefab", typeof(GameObject)) as GameObject;
+            var CMFreeLook = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Common/Cinemachine/Third Person Cinemachine/CM Third Person Main.prefab", typeof(GameObject)) as GameObject;
            // var CMFreeLook = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Common/Cinemachine/CM FreeLook Main.prefab", typeof(GameObject)) as GameObject;
             var WolfLite = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Animal Controller/Wolf Lite/Wolf Lite.prefab", typeof(GameObject)) as GameObject;
             var Steve = AssetDatabase.LoadAssetAtPath("Assets/Malbers Animations/Animal Controller/Human/Steve.prefab", typeof(GameObject)) as GameObject;
@@ -62,11 +60,11 @@ namespace MalbersAnimations
 
 
 
-        [MenuItem("Tools/Malbers Animations/Integrations", false, 10)]
+        [MenuItem("Tools/Malbers Animations/Integrations", false, 600)]
         public static void OpenIntegrations() => Application.OpenURL("https://malbersanimations.gitbook.io/animal-controller/annex/integrations");
 
 
-        [MenuItem("Tools/Malbers Animations/Tools/Remove All MonoBehaviours from Selected", false, 100)]
+        [MenuItem("Tools/Malbers Animations/Tools/Remove All MonoBehaviours from Selected", false, 500)]
         public static void RemoveMono()
         {
             var allGo = Selection.gameObjects;

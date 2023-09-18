@@ -1510,3 +1510,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148877
+  packageName: Animal Controller
+  packageVersion: 1.4.2c
+  assetPath: Assets/Malbers Animations/Common/Human Anims/Weapons/Throwable/H_Throw_N.fbx
+  uploadId: 613695

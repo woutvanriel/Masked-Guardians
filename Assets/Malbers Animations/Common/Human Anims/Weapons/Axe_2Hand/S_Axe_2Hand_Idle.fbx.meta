@@ -877,3 +877,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 148877
+  packageName: Animal Controller
+  packageVersion: 1.4.2c
+  assetPath: Assets/Malbers Animations/Common/Human Anims/Weapons/Axe_2Hand/S_Axe_2Hand_Idle.fbx
+  uploadId: 613695
