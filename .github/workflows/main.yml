@@ -69,8 +69,8 @@ jobs:
         allowDirtyBuild: true
     - uses: actions/upload-artifact@v2
       with:
-        name: WebGL
-        path: build
+        name: WebGL build
+        path: build/WebGL
   build-windows:
     name: Build Windows
     runs-on: ubuntu-latest
@@ -98,8 +98,8 @@ jobs:
         allowDirtyBuild: true
     - uses: actions/upload-artifact@v2
       with:
-        name: Windows
-        path: build
+        name: Windows build
+        path: build/StandaloneWindows
   build-macos:
     name: Build MacOS
     runs-on: ubuntu-latest
@@ -127,8 +127,8 @@ jobs:
         allowDirtyBuild: true
     - uses: actions/upload-artifact@v2
       with:
-        name: MacOS
-        path: build
+        name: MacOS build
+        path: build/StandaloneOSX
   build-linux:
     name: Build Linux
     runs-on: ubuntu-latest
@@ -156,5 +156,26 @@ jobs:
         allowDirtyBuild: true
     - uses: actions/upload-artifact@v2
       with:
-        name: Linux
-        path: build
+        name: Linux build
+        path: build/StandaloneLinux64
+  publish-itch:
+    name: Publish to itch.io
+    runs-on: ubuntu-latest
+    needs: [build-webgl, build-linux, build-windows, build-macos]
+    steps:
+    - uses: actions/download-artifact@v2.0.8
+      with:
+        name: WebGL build
+        path: build/webgl
+    - uses: actions/download-artifact@v2.0.8
+      with:
+        name: Linux build
+        path: build/linux
+    - uses: actions/download-artifact@v2.0.8
+      with:
+        name: Windows build
+        path: build/windows
+    - uses: actions/download-artifact@v2.0.8
+      with:
+        name: MacOS build
+        path: build/macos
