@@ -2,7 +2,7 @@ name: test, build and push the application to itch.io
 run-name: build for ${{ github.actor }}, ${{ github.event.head_commit.message }}
 on:
   push:
-    branches:
+    branches: main
   workflow_dispatch: {}
 jobs:
   test:
