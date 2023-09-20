@@ -179,7 +179,7 @@ jobs:
       with:
         name: MacOS build
         path: build/macos
-    - name: Itch.io - Publish
+    - name: Itch.io - Publish Windows
       uses: KikimoraGames/itch-publish@v0.0.3
       with:
         butlerAPIKey: ${{ secrets.ITCH_KEY }}
@@ -187,4 +187,27 @@ jobs:
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
         buildChannel: windows
-        
+    - name: Itch.io - Publish Linux
+      uses: KikimoraGames/itch-publish@v0.0.3
+      with:
+        butlerAPIKey: ${{ secrets.ITCH_KEY }}
+        gameData: ./build/linux
+        itchUsername: zerofox-studio
+        itchGameId: masked-guardian-of-the-elemental-wilds
+        buildChannel: linux
+    - name: Itch.io - Publish MacOS
+      uses: KikimoraGames/itch-publish@v0.0.3
+      with:
+        butlerAPIKey: ${{ secrets.ITCH_KEY }}
+        gameData: ./build/macos
+        itchUsername: zerofox-studio
+        itchGameId: masked-guardian-of-the-elemental-wilds
+        buildChannel: macos
+    - name: Itch.io - Publish WebGL
+      uses: KikimoraGames/itch-publish@v0.0.3
+      with:
+        butlerAPIKey: ${{ secrets.ITCH_KEY }}
+        gameData: ./build/webgl
+        itchUsername: zerofox-studio
+        itchGameId: masked-guardian-of-the-elemental-wilds
+        buildChannel: webgl
