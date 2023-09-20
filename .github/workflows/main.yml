@@ -210,4 +210,4 @@ jobs:
         gameData: ./build/webgl
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
-        buildChannel: webgl
+        buildChannel: HTML5
