@@ -183,7 +183,7 @@ jobs:
       uses: KikimoraGames/itch-publish@v0.0.3
       with:
         butlerAPIKey: ${{ secrets.ITCH_KEY }}
-        gameData: build/StandaloneWindows
+        gameData: ./build/windows
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
         buildChannel: windows
