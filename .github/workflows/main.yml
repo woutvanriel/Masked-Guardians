@@ -164,29 +164,25 @@ jobs:
     needs: [build-webgl, build-linux, build-windows, build-macos]
     steps:
     - uses: actions/download-artifact@v2.0.8
+      name: Download WebGL build
       with:
         name: WebGL build
         path: build/webgl
     - uses: actions/download-artifact@v2.0.8
+      name: Download Linux build
       with:
         name: Linux build
         path: build/linux
     - uses: actions/download-artifact@v2.0.8
+      name: Download Windows build
       with:
         name: Windows build
         path: build/windows
     - uses: actions/download-artifact@v2.0.8
+      name: Download MacOS build
       with:
         name: MacOS build
         path: build/macos
-    - name: Itch.io - Publish Windows
-      uses: KikimoraGames/itch-publish@v0.0.3
-      with:
-        butlerAPIKey: ${{ secrets.ITCH_KEY }}
-        gameData: ./build/windows
-        itchUsername: zerofox-studio
-        itchGameId: masked-guardian-of-the-elemental-wilds
-        buildChannel: windows
     - name: Itch.io - Publish Linux
       uses: KikimoraGames/itch-publish@v0.0.3
       with:
@@ -195,6 +191,7 @@ jobs:
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
         buildChannel: linux
+        buildNumber: ${{ needs.version.outputs.version_hash }}
     - name: Itch.io - Publish MacOS
       uses: KikimoraGames/itch-publish@v0.0.3
       with:
@@ -203,6 +200,7 @@ jobs:
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
         buildChannel: macos
+        buildNumber: ${{ needs.version.outputs.version_hash }}
     - name: Itch.io - Publish WebGL
       uses: KikimoraGames/itch-publish@v0.0.3
       with:
@@ -211,3 +209,4 @@ jobs:
         itchUsername: zerofox-studio
         itchGameId: masked-guardian-of-the-elemental-wilds
         buildChannel: HTML5
+        buildNumber: ${{ needs.version.outputs.version_hash }}
